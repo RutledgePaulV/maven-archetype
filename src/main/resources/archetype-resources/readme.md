@@ -2,21 +2,22 @@
 [![Coverage Status](https://coveralls.io/repos/github/RutledgePaulV/${artifactId}/badge.svg?branch=develop)](https://coveralls.io/github/RutledgePaulV/${artifactId}?branch=develop)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/${artifactId}/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/${artifactId})
 
-## ${artifactId}
 
 
-#### Release Versions
+
+
+Release Versions
 ```xml
 <dependencies>
     <dependency>
         <groupId>${groupId}</groupId>
         <artifactId>${artifactId}</artifactId>
-        <version>${version}</version>
+        <version><!-- Not yet released --></version>
     </dependency>
 </dependencies>
 ```
 
-#### Snapshot Versions
+Snapshot Versions
 ```xml
 <dependencies>
     <dependency>

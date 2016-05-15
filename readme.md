@@ -1,10 +1,20 @@
 [![Build Status](https://travis-ci.org/RutledgePaulV/maven-archetype.svg?branch=develop)](https://travis-ci.org/RutledgePaulV/maven-archetype)
-[![Coverage Status](https://coveralls.io/repos/github/RutledgePaulV/maven-archetype/badge.svg?branch=develop)](https://coveralls.io/github/RutledgePaulV/maven-archetype?branch=develop)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/maven-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/maven-archetype)
 
 ## Maven-Archetype
-A maven archetype to handle all the bootstrapping for a new com.github.rutledgepaulv
-Java based project.
+A maven archetype to handle all the bootstrapping for a new com.github.rutledgepaulv Java based project.
+
+
+#### Usage
+```bash
+mvn archetype:generate \
+  -DarchetypeGroupId=com.github.rutledgepaulv \
+  -DarchetypeArtifactId=maven-archetype \
+  -DarchetypeVersion=1.0 \
+  -DgroupId=com.github.rutledgepaulv \
+  -DartifactId=<project-name>
+```
+
 
 #### Release Versions
 ```xml
