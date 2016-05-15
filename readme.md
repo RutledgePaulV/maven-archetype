@@ -2,7 +2,7 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/maven-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rutledgepaulv/maven-archetype)
 
 ## Maven-Archetype
-A maven archetype to handle all the bootstrapping for a new com.github.rutledgepaulv Java based project.
+A maven archetype to handle all the bootstrapping for a new com.github.rutledgepaulv project.
 
 
 #### Usage
@@ -33,7 +33,7 @@ mvn archetype:generate \
     <dependency>
       <groupId>com.github.rutledgepaulv</groupId>
       <artifactId>maven-archetype</artifactId>
-      <version>1.1</version>
+      <version>1.1-SNAPSHOT</version>
     </dependency>
 </dependencies>
 
